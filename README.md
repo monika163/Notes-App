@@ -2,7 +2,7 @@
 
 The NOTEBOX is a full-stack CRUD Todo app developed using the MERN stack (MongoDB, Express.js, React.js, Node.js). It comes with authentication, allowing users to manage their tasks by adding titles, descriptions, and due dates. Additionally, users can edit or delete existing notes to keep their tasks organized.
 
-Deployed link : https://notes-app-52qm.onrender.com
+Deployed link : https://notes-app-2t7k.onrender.com
 
 ## Notes App with MongoDB, Express, React & Nodejs (MERN).
 
@@ -91,23 +91,51 @@ Server runs on http://localhost:5000 and client on http://localhost:3000
 
 ## Screenshots
 
-#### Frontend
+#### Login
 
-This project was created using the following technologies.
+If a user has an existing account on Notes App, they can simpy Login using their login details.
 
-![1 added todos](https://github.com/monika163/Todo-List/assets/61625011/9cc32aea-7bf3-49a8-9187-15f8465b4bbe)
-
----
-
-![2  addded all todos](https://github.com/monika163/Todo-List/assets/61625011/b60ae33d-a556-4027-b258-23ff97faffa9)
+![1  login](https://github.com/monika163/Notes-App/assets/61625011/8a88a380-6110-40b0-9e34-e776c41b52f7)
 
 ---
 
-![3  active todos](https://github.com/monika163/Todo-List/assets/61625011/daf2f934-5287-400c-bb8b-0664df98ccb0)
+#### Sign Up
+
+If a user dose not have an existing account on Notes App, they can create one, simply by clicking on the Sign Up button, and filling in the required details.
+
+![2  register](https://github.com/monika163/Notes-App/assets/61625011/8efd16a3-be0a-4392-9db5-94b5e2996ebe)
+
+A user has to either Login or Sign Up before they can use Notes App.
 
 ---
 
-![4  done todos](https://github.com/monika163/Todo-List/assets/61625011/66190add-a7a9-4a3e-8951-9687c6dcdeae)
+#### Home Page
+
+Once the user has signed in, they will find themselves on this Home Screen, which currently has no notes.
+
+![3  add notes](https://github.com/monika163/Notes-App/assets/61625011/26f38cf1-ee33-4f51-be5b-3faaa554be26)
+
+They can simply add a new note by filling in the necessary details like the Note Title, Description, and Doe Dates. Once they do this, they'll be able to add that note simply by clicking on the Add Note button.
+
+![4   adding notes](https://github.com/monika163/Notes-App/assets/61625011/28b301e7-718d-436b-bc69-1688da42765b)
+
+Once they click on the Add Note button, there note will be added on the Home Screen, which they can view after login in, and no one else can see it.
+
+![5  added notes](https://github.com/monika163/Notes-App/assets/61625011/3223aded-38f9-4f33-b543-ee606eb914fe)
+
+---
+
+#### Updating/Deleting a Note
+
+If the user wants to update or delete a note, they can do so by simply clicking on the Delete (trashcan) icon, or the Update (pen/note) icon next to the particular note.
+
+If they click on the update icon, a modal will pop up where they can update whatever they want, and can save the changes simply by clicking on the Update Note button once they're happy.
+
+![6  updating and deleting a notes](https://github.com/monika163/Notes-App/assets/61625011/aea55ab4-61cb-4b9f-887e-bc1471cf2f22)
+
+Once the user is done using the application, they can simply log out using the Logout button on the top right corner, so that no one else will be able to see their notes without logging in.
+
+Bycrypt.js and JWT Authentication have been used to enhance the overall security of the application.
 
 ---
 
